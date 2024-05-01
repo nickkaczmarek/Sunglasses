@@ -49,7 +49,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let statusBar = NSStatusBar.system
 
         self.statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
-        self.statusBarItem.button?.title = "🕶️"
+        self.statusBarItem.button?.image = NSImage(named: "MenubarIcon")
 
         let statusBarMenu = NSMenu(title: "Sunglasses Status Bar Menu")
         self.statusBarItem.menu = statusBarMenu
