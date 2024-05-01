@@ -44,7 +44,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.window.ignoresMouseEvents = true
         self.window.isOpaque = false
         self.window.level = .floating
-        self.window.backgroundColor = NSColor(red: 0.0, green: 0.0, blue: 1.0, alpha: currentAlpha)
+        self.window.backgroundColor = NSColor.systemBlue.withAlphaComponent(currentAlpha)
         self.window.orderFrontRegardless()
     }
 
