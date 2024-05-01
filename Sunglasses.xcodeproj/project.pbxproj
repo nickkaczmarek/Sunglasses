@@ -10,6 +10,8 @@
 		2A406FB92BDC328F0046CD34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A406FB82BDC328F0046CD34 /* AppDelegate.swift */; };
 		2A406FBB2BDC32900046CD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A406FBA2BDC32900046CD34 /* Assets.xcassets */; };
 		2A406FBE2BDC32900046CD34 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2A406FBD2BDC32900046CD34 /* Base */; };
+		2A635ADC2BE081D10084ACAD /* TagControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A635ADA2BE081D10084ACAD /* TagControl.swift */; };
+		2A635ADD2BE081D10084ACAD /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A635ADB2BE081D10084ACAD /* TagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		2A406FBA2BDC32900046CD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A406FBD2BDC32900046CD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2A406FBF2BDC32900046CD34 /* Sunglasses.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sunglasses.entitlements; sourceTree = "<group>"; };
+		2A635ADA2BE081D10084ACAD /* TagControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagControl.swift; sourceTree = "<group>"; };
+		2A635ADB2BE081D10084ACAD /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		2A406FB72BDC328F0046CD34 /* Sunglasses */ = {
 			isa = PBXGroup;
 			children = (
+				2A635ADA2BE081D10084ACAD /* TagControl.swift */,
+				2A635ADB2BE081D10084ACAD /* TagViewController.swift */,
 				2A406FB82BDC328F0046CD34 /* AppDelegate.swift */,
 				2A406FBA2BDC32900046CD34 /* Assets.xcassets */,
 				2A406FBC2BDC32900046CD34 /* MainMenu.xib */,
@@ -129,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A406FB92BDC328F0046CD34 /* AppDelegate.swift in Sources */,
+				2A635ADD2BE081D10084ACAD /* TagViewController.swift in Sources */,
+				2A635ADC2BE081D10084ACAD /* TagControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
